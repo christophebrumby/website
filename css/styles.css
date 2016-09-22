@@ -180,23 +180,19 @@ h2 {
   font-size: 10px;
 }
 
-.image-container {
-  display: inline-block;
-}
-
 img {
+  display: inline-block;
   width: 80%;
 }
 
 .left-strip {
   transform: rotate(-90deg);
-  padding-right: 50%;
+  /*padding-right: 50%;*/
   display: inline-block;
 }
 
 .right-strip {
   transform: rotate(90deg);
-  padding-right: 50%;
   display: inline-block;
 }
 
