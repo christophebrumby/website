@@ -1,5 +1,6 @@
 function dropDown () {
   $("ul").toggleClass("visible");
+  $(".hamburger").toggleClass("is-active");
 }
 
-$(".menubutton").click(dropDown);
+$(".hamburger").click(dropDown);
